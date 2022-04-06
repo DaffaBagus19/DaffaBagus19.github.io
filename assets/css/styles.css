@@ -77,20 +77,6 @@ img {
   height: auto;
 }
 
-/*=============== THEME ===============*/
-.change-theme {
-  position: absolute;
-  top: 1.5rem;
-  right: 0;
-  font-size: 1.25rem;
-  color: var(--title-color);
-  cursor: pointer;
-  transition: .3s;
-}
-
-.change-theme:hover {
-  color: var(--first-color);
-}
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -250,7 +236,7 @@ body.dark-theme {
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  background-color: var(--first-color);
+  background-color: #28a745;
   color: #fff;
   padding: 1.15rem 1.5rem;
   border-radius: .5rem;
@@ -542,4 +528,26 @@ body.dark-theme {
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
   }
+}
+
+body
+{
+    background-color: gainsboro;
+}
+
+.badan
+{
+    background-color: white;
+    padding: 13px 0;
+    margin-top: 30px;
+}
+
+.peding-100
+{
+    padding: 120px;
+}
+
+.peding-30
+{
+    padding: 30px;
 }
